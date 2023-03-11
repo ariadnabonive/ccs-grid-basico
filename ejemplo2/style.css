@@ -1,0 +1,26 @@
+html {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  background-color: #251f1f;
+  color: #fdfbfb;
+}
+
+.container-2 {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  /*  Divide el espacio en 3 fracciones iguales
+        grid-template-columns: 1fr 1fr 1fr; 
+    */
+  gap: 20px;
+}
+
+.item-2 {
+  background-color: #0e0c0c6e;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: #fdfbfb;
+  height: 100px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
